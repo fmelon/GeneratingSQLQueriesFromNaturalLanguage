@@ -1,12 +1,12 @@
-# Generating SQL queries from natural language
+Generating SQL queries from natural language
 
-### We have extended the implementation of SQLNet repository and added modules for using character embeddings along with word embeddings for training the bidirectional LSTMs.
+We have extended the implementation of SQLNet repository and added modules for using character embeddings along with word embeddings for training the bidirectional LSTMs.
 
-### The code is implemented in python2.7 using the PyTorch library(version=0.3.1) which can be installed from (http://pytorch.org). For install other requirements execute requirements.txt as
+The code is implemented in python2.7 using the PyTorch library(version=0.3.1) which can be installed from (http://pytorch.org). For install other requirements execute requirements.txt as
 
 pip install -r requirements.txt
 
-### We have installed and extracted the pretrained GLOVE embeddings which can be used directly for training and testing the model. We have added a class inside word_embedding.py called CharacterEmbedding which contains modules and components related to character embeddings.
+We have installed and extracted the pretrained GLOVE embeddings which can be used directly for training and testing the model. We have added a class inside word_embedding.py called CharacterEmbedding which contains modules and components related to character embeddings.
 
 ### For training the model, we need to run "train.py" with the following commands:
 
