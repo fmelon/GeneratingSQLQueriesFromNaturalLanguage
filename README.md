@@ -1,6 +1,6 @@
 ## Generating SQL Queries from Natural Language
 
-This repo provides extension to the implementation of [SQLNet repository](https://github.com/xiaojunxu/SQLNet) and added modules for using character embeddings along with word embeddings for training the bidirectional LSTMs.
+This repo provides extension to the implementation of [SQLNet](https://github.com/xiaojunxu/SQLNet) and added modules for using character embeddings along with word embeddings for training the bidirectional LSTMs.
 
 
 The code is implemented in python2.7 using the [PyTorch 0.3.1](http://pytorch.org). For install other requirements execute requirements.txt as
